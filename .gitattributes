@@ -1,2 +1,18 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Laravel (PHP) backend kodlarını öne çıkar
+*.php linguist-detectable=true
+
+# React (JavaScript, JSX) kodlarını öne çıkar
+*.js linguist-detectable=true
+*.jsx linguist-detectable=true
+
+# Gereksiz dosyaları (istatistikleri bozan) çıkar
+*.json linguist-detectable=false
+*.lock linguist-detectable=false
+*.md linguist-detectable=false
+*.env linguist-detectable=false
+*.xml linguist-detectable=false
+*.yml linguist-detectable=false
+*.config linguist-detectable=false
+*.html linguist-detectable=false
+*.css linguist-detectable=false
+*.scss linguist-detectable=false
